@@ -300,6 +300,9 @@
     color: rgb(2, 148, 2);
     font-weight: 600;
     font-weight: 600;
+    height: 130px;
+    max-height: 130px;
+    overflow: auto;
 }
 
 .pricing-section .pricing-item .body .wrapper {
