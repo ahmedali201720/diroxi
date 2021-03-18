@@ -241,17 +241,13 @@
 
 .pricing-section .pricing-item .badge {
     position: absolute;
-    width: 180px;
-    height: 30px;
-    top: 6%;
+    top: 5%;
     left: -12%;
     background-color: red;
     color: #fff;
     font-weight: 700;
     transform: rotateZ(-40deg);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 0.625rem 4rem;
 }
 
 .pricing-item .icon {
