@@ -236,6 +236,22 @@
     background-color: #faf4f49c;
     border-radius: 10px;
     height: 100%;
+    overflow: hidden;
+}
+
+.pricing-section .pricing-item .badge {
+    position: absolute;
+    width: 180px;
+    height: 30px;
+    top: 6%;
+    left: -12%;
+    background-color: red;
+    color: #fff;
+    font-weight: 700;
+    transform: rotateZ(-40deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .pricing-item .icon {
@@ -252,14 +268,14 @@
 
 .pricing-section .pricing-item .product-img {
     width: 100%;
-    max-height: 90px;
+    max-height: 120px;
     overflow: hidden;
     text-align: center;
 }
 
 .pricing-section .pricing-item img {
-    height: 90px;
-    width: 90px;
+    height: 120px;
+    width: 120px;
     border-radius: 50%;
     border: 2px solid #fff;
     -webkit-animation: yRotate 5s infinite ease-in-out;
