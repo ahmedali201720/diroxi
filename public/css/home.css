@@ -26,6 +26,7 @@
 .theme-button {
     position: relative;
     display: block;
+    border: none;
     width: 250px;
     background-color: orangered;
     text-align: center;
