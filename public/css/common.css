@@ -3,8 +3,10 @@
     --mainGrey: #636466;
     --secondaryGrey: #A7A9AC;
     --greenColor: #71a033;
-    --blueColor: #00515A;
+    --blueColor: #4fc9f4;
+    --darkColor: #414143;
     --whiteColor: #F0F0EF;
+    --lightBlue: #a4daed;
 }
 
 /* Set the direction right to left */
@@ -44,7 +46,7 @@ body {
 }
 
 .text-main {
-    color: var(--mainOrange);
+    color: var(--blueColor);
 }
 
 .text-grey {
