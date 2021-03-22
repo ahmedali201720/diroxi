@@ -588,8 +588,9 @@
     width: 150px;
     height: auto;
     border-radius: 50%;
-    border: 2px solid #fff;
     transition: transform 1.5s;
+    -webkit-animation: yRotate 3s infinite alternate;
+    animation: yRotate 3s infinite alternate;
 }
 
 .footer-social-link {
