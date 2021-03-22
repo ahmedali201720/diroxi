@@ -90,26 +90,26 @@
 .about-section {
     border-top: 1px solid #fff;
     border-bottom: 1px solid #fff;
-    background-image: linear-gradient(to right bottom, #797973ab, #888881a9), url('../../assets/images/sexual-problem.jpg');
+    background-image: linear-gradient(to right bottom, #686863ab, #686863ab), url('../../assets/images/back1.png');
     background-size: cover;
     background-attachment: fixed;
 }
 
 .about-section :is(.img-wrapper img) {
     width: 100%;
-    max-width: 300px;
+    max-width: 400px;
     height: auto;
-    -webkit-animation: yRotate 4s infinite alternate;
-    animation: yRotate 4s infinite alternate;
-    border-radius: 10px;
+    border-radius: 50%;
+    border: 5px solid #fff;
     box-shadow: 0 0 10px #fff;
 }
 
 .about-section .section-header {
-    background-color: var(--blueColor);
+    background-color: #4fc8f4cb;
+    border: 2px solid #fff;
+    border-radius: 50px;
     padding: 1rem;
     text-align: center;
-    border-radius: 5px;
 }
 
 .about-section .feature-text-item {
