@@ -13,6 +13,7 @@
     height: auto;
     max-height: 500px;
     border-radius: 50%;
+    border: 5px solid #fff;
     -webkit-animation: floatUpDown 1.5s infinite alternate;
     animation: floatUpDown 1.5s infinite alternate;
     box-shadow: 0 0 10px #4fc9f4;
@@ -45,7 +46,7 @@
 .theme-button {
     position: relative;
     display: block;
-    border: none;
+    border: 2px solid var(--lightBlue);
     width: 250px;
     background-color: orangered;
     text-align: center;

@@ -6,7 +6,7 @@ $(document).ready(function () {
         mouseDrag: true,
         touchDrag: true,
         autoplay: true,
-        autoplayTimeout: 4000,
+        autoplayTimeout: 3000,
         autoplayHoverPause: true,
         nav: false,
         rtl: true,

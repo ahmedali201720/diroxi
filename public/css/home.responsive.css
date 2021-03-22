@@ -1,3 +1,16 @@
+@media (orientation: landscape) {
+    .intro-section {
+        height: auto;
+    }
+}
+
+@media (orientation: portrait) {
+    .intro-section {
+        height: 100vh;
+        overflow: auto;
+    }
+}
+
 @media only screen and (max-width: 576px) {
     .intro-section .major-text {
         font-size: 24px !important;
@@ -45,11 +58,3 @@
 @media only screen and (min-width: 1200px) {}
 
 @media only screen and (min-width: 1300px) {}
-
-/* orientation */
-
-@media only screen and (orientation:portrait) {
-    .intro-section {
-        height: 100vh;
-    }
-}
