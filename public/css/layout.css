@@ -488,7 +488,7 @@
 /* ********************************************************************************************************* */
 
 #footer {
-    background-image: linear-gradient(to right bottom, #00515ac2, #124e55b4), url('../../assets/images/garrab-benafsak.jpeg');
+    background-image: linear-gradient(to right bottom, #00515ac2, #124e55b4), url('../../assets/images/diroxi2.jpg');
     perspective: 1000px;
     perspective-origin: 50% 50%;
     animation: animateBackgroundImage 300s linear infinite;
