@@ -65,6 +65,10 @@ body {
     font-size: 50px !important;
 }
 
+.bg-chargeing-fee {
+    background-color: rgb(253, 123, 123) !important;
+}
+
 .text-red-light {
     color: #fac3c4 !important;
 }
