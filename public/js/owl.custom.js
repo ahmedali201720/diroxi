@@ -30,16 +30,19 @@ $(document).ready(function () {
                 items: 1,
             },
             400: {
-                items: 1.5,
+                items: 1.25,
             },
             576: {
-                items: 2,
+                items: 1.5,
             },
             768: {
-                items: 3
+                items: 2
             },
             992: {
-                items: 4
+                items: 2.5
+            },
+            1200: {
+                items: 3
             }
         }
     });

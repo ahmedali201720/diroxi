@@ -216,12 +216,12 @@
 }
 
 .product-usage .usage-item {
-    padding: 1.5rem 1rem;
+    padding: 1.5rem;
     background-color: #4fc8f4a2;
     border-radius: 10px;
-    height: 170px;
+    border: 2px solid #fff;
+    height: 280px;
     overflow-y: auto;
-    box-shadow: 0 0 10px #fff;
 }
 
 .product-usage .usage-item .number {
@@ -243,6 +243,14 @@
     font-size: 16px;
     font-weight: 600;
     color: #000;
+}
+
+.product-usage .usage-item .desc-title {
+    padding: 0.425rem;
+    background-color: #fff;
+    clip-path: polygon(5% 0, 95% 0, 100% 50%, 95% 100%, 5% 100%, 0 50%);
+    color: var(--blueColor);
+    font-weight: 700;
 }
 
 /* Product usage section */
